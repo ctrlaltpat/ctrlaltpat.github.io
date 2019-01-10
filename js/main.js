@@ -3,19 +3,19 @@ const has_class = (elem, class_name) => new RegExp(' ' + class_name + ' ').test(
 const add_class = (elem, class_name) => !has_class(elem, class_name) && (elem.className += ' ' + class_name)
 
 const remove_class = (elem, class_name) => {
-  const new_class = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' '
+  let new_class = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' '
   if (has_class(elem, class_name)) {
-      while (new_class.indexOf(' ' + class_name + ' ') >= 0 ) {
-          new_class = new_class.replace(' ' + class_name + ' ', ' ')
-      }
-      elem.className = new_class.replace(/^\s+|\s+$/g, '')
+    while (new_class.indexOf(' ' + class_name + ' ') >= 0 ) {
+      new_class = new_class.replace(' ' + class_name + ' ', ' ')
+    }
+    elem.className = new_class.replace(/^\s+|\s+$/g, '')
   }
 }
 const toggle_class = (elem, class_name) => {
-  const new_class = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' '
+  let new_class = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' '
   if (has_class(elem, class_name)) {
     while (new_class.indexOf(" " + class_name + " ") >= 0 ) {
-        new_class = new_class.replace( " " + class_name + " " , " " )
+      new_class = new_class.replace( " " + class_name + " " , " " )
     }
     elem.className = new_class.replace(/^\s+|\s+$/g, '')
   } else {
