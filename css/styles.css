@@ -12,6 +12,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #000000;
+  background: radial-gradient(ellipse at center, #333333 0%, #000000 100%);
   color: #FFFFFF;
   font-family: 'Raleway', 'Roboto', lato, Arial, sans-serif !important;
 }
@@ -105,7 +106,7 @@ ul {
   height: 200px;
 }
 
-#moi .img_holder {
+#moi .avatar {
   position: relative;
   height: 100%;
   width: 100%;

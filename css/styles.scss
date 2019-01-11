@@ -21,6 +21,7 @@ html, body {
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: color(primary);
+  background: radial-gradient(ellipse at center, #333333 0%,#000000 100%);
   color: color(primary-text);
   font-family: 'Raleway', 'Roboto', lato, Arial, sans-serif !important;
 }
@@ -95,7 +96,7 @@ ul {
   width: 200px;
   height: 200px;
 
-  .img_holder {
+  .avatar {
     position: relative;
     height: 100%;
     width: 100%;
