@@ -1,0 +1,33 @@
+{
+  "name": "ctrlaltpat.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "export": "next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrlaltpat/ctrlaltpat.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctrlaltpat/ctrlaltpat.github.io/issues"
+  },
+  "homepage": "https://github.com/ctrlaltpat/ctrlaltpat.github.io#readme",
+  "dependencies": {
+    "next": "^9.1.7",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.7.3",
+    "tailwindcss": "^1.1.4"
+  }
+}
