@@ -10,6 +10,7 @@ const Home = () => (
       />
     </div>
     <h1 className="text-blue-900 mt-4">CtlAltPat</h1>
+    <p>I'll be back to this later...</p>
   </div>
 );
 

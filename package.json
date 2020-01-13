@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "npm run build && next export"
+    "export": "npm run build && next export",
+    "tmp-ready": "npm run build && next export && cp -R out/ ../deploy/ctrlaltpat.github.io"
   },
   "dependencies": {
     "next": "9.1.7",
