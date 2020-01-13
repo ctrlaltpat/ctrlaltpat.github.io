@@ -45,40 +45,49 @@ module.exports = (__webpack_require__(/*! dll-reference dll_ef0ff7c60362f24a921f
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/main.css */ "./styles/main.css");
-/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_main_css__WEBPACK_IMPORTED_MODULE_1__);
 var _jsxFileName = "/Users/rick/Desktop/ctrlaltpat.github.io/pages/index.js";
-
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-/* harmony default export */ __webpack_exports__["default"] = (function () {
+
+var Home = function Home() {
   return __jsx("div", {
-    className: "p-4 shadow rounded bg-white",
+    className: "flex items-center flex-col justify-center h-screen",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, __jsx("h1", {
-    className: "text-purple-500 leading-normal",
+  }, __jsx("div", {
+    className: "relative w-64 h-64",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
-  }, "Next.js"), __jsx("p", {
-    className: "text-gray-500",
+  }, __jsx("img", {
+    className: "absolute h-full w-full object-cover rounded-full shadow-md",
+    src: "/ctrlaltpat1.png",
+    alt: "ctrlaltpat memoji",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
     },
     __self: this
-  }, "with Tailwind CSS"));
-});
+  })), __jsx("h1", {
+    className: "text-blue-900 mt-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, "CtlAltPat"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Home);
 
 /***/ }),
 
-/***/ 0:
+/***/ 2:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Frick%2FDesktop%2Fctrlaltpat.github.io%2Fpages%2Findex.js ***!
   \************************************************************************************************************************************/
@@ -101,5 +110,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
