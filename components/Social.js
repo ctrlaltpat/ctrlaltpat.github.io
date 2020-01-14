@@ -17,7 +17,7 @@ const links = [
   { name: "Github", url: "https://github.com/ctrlaltpat", icon: faGithub },
   { name: "Main Website", url: "https://ctrlaltpat.com/", icon: faGlobe },
   { name: "Twitter", url: "https://twitter.com/ctrlaltpat", icon: faTwitter },
-  { name: "Dev", url: "#", icon: faDev }
+  { name: "Dev", url: "https://dev.to/ctrlaltpat", icon: faDev }
 ];
 
 const Social = () => {
